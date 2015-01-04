@@ -8,4 +8,11 @@ $(document).ready(function(){
 	  cssEase: 'linear',
 	  speed: 3000
 	});
+	new WOW().init();
+});
+
+$("#button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#myDiv").offset().top
+    }, 2000);
 });

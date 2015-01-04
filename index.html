@@ -10,12 +10,21 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/set1.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
     <link href="css/default.css" rel="stylesheet">
-    <link href="slick/slick.css" rel="stylesheet"/>
+    <link href="modules/slick/slick.css" rel="stylesheet"/>
+    <link href="modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
   </head>
   <body>
     
     <header id="main_page">
+      <div id="logo_container">
+        <img class="wow fadeIn" src="img/logo2.png" alt="logo">
+      </div>
+      <div id="hero_text" class="wow fadeIn">
+        You Only Live Once!
+      </div>
       <div class="bg-slider">
         <div><img src="img/railroad-jackiepotorke.jpg"></div>
         <div><img src="img/deer-thomaslefebvre.jpg"></div>
@@ -26,12 +35,15 @@
     </header>
     <section id="filler">
       <div id="filler_content">
-        <h1>“The world is a book and he who doesn’t travel only reads one page.” – St. Augustine</h1>
-        <h1>“A good traveler has no fixed plans, and is not intent on arriving.” – Lao Tzu</h1>
-        <a id="filler_button" href="#">View Blogs</a>
+        <h1 class="wow bounceInLeft">“The world is a book and he who doesn’t travel only reads one page.” – St. Augustine</h1>
+        <h1 class="wow bounceInRight">“A good traveler has no fixed plans, and is not intent on arriving.” – Lao Tzu</h1>
+        <a id="filler_button" class="wow flipInX" href="#">View Blogs</a>
       </div>
     </section>
     <section id="blog_post">
+      <div class="bp-space">
+        <h1 class="wow shake">Check out our latest trip..</h1>
+      </div>
       <div class="row">
         <div class="col-lg-4 col-md-6">
           <div class="grid">
@@ -106,14 +118,42 @@
           </div>
         </div>
       </div>
+      <div class="bp-space">
+        <a href="#" id="blog_button" class="wow fadeIn">Older Posts</a>
+      </div>
     </section>
-    <footer></footer>
+    <footer>
+      <div class="row">
+        <div id="f_about" class="col-lg-4">
+          <h1>About Us</h1>
+          <p>Interactive Red is a digital agency like no other.
+
+          We have a full team of designers, developers and consultants that deliver your project with the care and passion it deserves and we do it in plain English. <a href="#">Read More.</a>
+          </p>
+        </div>
+        <div id="f_newsletter" class="col-lg-4">
+          <h1>Newsletter</h1>
+          <p>Keep up to date with our latest projects and other goings on here at Interactive Red. Unsubscribe at any time, not that you'll want to.</p>
+          <form>
+            <input type="email">
+          </form>
+        </div>
+        <div id="f_follow" class="col-lg-4">
+          <h1>Follow us!</h1>
+          <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
+          <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+          <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
+        </div>
+      </div>
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="slick/slick.min.js"></script>
+    <script src="modules/slick/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/core.js"></script>
   </body>
 </html>
