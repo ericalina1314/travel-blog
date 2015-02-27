@@ -28,8 +28,8 @@ section {
 	width: 100%;
 }
 .box-ad-container {
-	position: relative;
-	top: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .box-ad-container img {
 	cursor: pointer;
