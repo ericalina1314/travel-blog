@@ -25,7 +25,6 @@
 	max-height: 300px;
 	background: #44CFCB;
 	text-align: center;
-	cursor: pointer;
 }
 
 .grid figure img {
@@ -72,6 +71,7 @@
 .grid figure h2 {
 	word-spacing: -0.15em;
 	font-weight: 300;
+	cursor: pointer;
 }
 
 .grid figure h2 span {

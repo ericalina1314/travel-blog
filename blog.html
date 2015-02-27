@@ -9,137 +9,114 @@
     <!-- Bootstrap -->
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/set1.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
-    <link href="css/default.css" rel="stylesheet">
+    <link href="css/set1.css" rel="stylesheet">
+    <link href="css/blog.css" rel="stylesheet">
     <link href="modules/slick/slick.css" rel="stylesheet"/>
     <link href="modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
   </head>
   <body>
-    
-    <header id="main_page">
-      <div id="logo_container">
-        <img class="wow fadeIn" src="img/kerehore.png" alt="logo">
-      </div>
-      <div id="background_pattern"></div>
-      <div class="sky-ad-container" id="left_sky_ad">
-        <img src="img/sky1.jpg">
-      </div>
-      <div class="sky-ad-container" id="right_sky_ad">
-        <img src="img/sky2.jpg">
-      </div>
-      <div class="bg-slider">
-        <div><img src="img/railroad-jackiepotorke.jpg"></div>
-        <div><img src="img/deer-thomaslefebvre.jpg"></div>
-        <div><img src="img/hills-jullianlavallee.jpg"></div>
-        <div><img src="img/mountains-aleskrivec.jpg"></div>
-      </div>
-
-    </header>
-    <section id="filler">
-      <div class="row">
-        <div class="col-lg-3 col-md-3">
-          <div class="box-ad-container" id="left_box_ad">
-            <img src="img/box1.jpg">
-          </div>
+    <section id="post">
+        <div id="title_container">
+            <div id="logo_container">
+                <a href="index.html"><img src="img/kerehore.png" /></a>
+            </div>
+            <div id="post_title">
+                Trip To Swahili
+            </div>
+            <img class="title-element" src="img/hills-jullianlavallee.jpg" alt="hills"/>
+            <div id="background_pattern"></div>
         </div>
-        <div class="col-lg-6 col-md-6">
-          <div id="filler_content">
-            <h1 class="wow bounceInLeft">“The world is a book and he who doesn’t travel only reads one page.” – St. Augustine</h1>
-            <!--<h1 class="wow bounceInRight">“A good traveler has no fixed plans, and is not intent on arriving.” – Lao Tzu</h1> -->
-            <a id="filler_button" class="wow flipInX" href="blog.html">View Blogs</a>
-          </div>
+        <div id="post_container">
+            <div id="post_metadata">
+                <div id="meta_writer">posted by <span>Gustav</span> at 28-12-2014 09:44 AM</div>
+                <div id="meta_comment">5 comments</div>
+            </div>
+            <div id="post_text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. <br/><br/>
+                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.<br/>
+                <img src="img/deer-thomaslefebvre.jpg" /><br/>
+                <p id="img_desc">a majestic deer</p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+            </div>
         </div>
-        <div class="col-lg-3 col-md-3">
-          <div class="box-ad-container" id="right_box_ad">
-            <img src="img/box2.jpg">
-          </div>
-        </div>
-      </div>
     </section>
-    <section id="blog_post">
-      <div class="bp-space">
-        <h1 class="wow shake">Check out our latest trip..</h1>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="grid">
+    <div id="carousel_title">
+        Don't forget to check out other amazing trips below! <span>View All</span>
+    </div>
+    <div class="post-carousel">
+        <i id="left_arrow" class="fa fa-chevron-left fa-lg"></i>
+        <i id="right_arrow" class="fa fa-chevron-right fa-lg"></i>
+        <div class="post-carousel-item">
+            <div class="grid">
             <figure class="effect-sarah">
               <img src="img/thumbnails/1.jpg" alt="img01"/>
               <figcaption>
                 <h2><span>Trip to Europe</span></h2>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                <a href="blog.html">View more</a>
               </figcaption>         
             </figure>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="grid">
+        <div class="post-carousel-item">
+            <div class="grid">
             <figure class="effect-sarah">
               <img src="img/thumbnails/2.jpg" alt="img01"/>
               <figcaption>
                 <h2><span>Trip to United States</span></h2>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                <a href="blog.html">View more</a>
               </figcaption>         
             </figure>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="grid">
+        <div class="post-carousel-item">
+            <div class="grid">
             <figure class="effect-sarah">
               <img src="img/thumbnails/3.jpg" alt="img01"/>
               <figcaption>
                 <h2><span>Trip to Africa</span></h2>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                <a href="blog.html">View more</a>
               </figcaption>         
             </figure>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="grid">
+        <div class="post-carousel-item">
+            <div class="grid">
             <figure class="effect-sarah">
               <img src="img/thumbnails/4.jpg" alt="img01"/>
               <figcaption>
                 <h2><span>Trip to China</span></h2>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                <a href="blog.html">View more</a>
               </figcaption>         
             </figure>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="grid">
+        <div class="post-carousel-item">
+            <div class="grid">
             <figure class="effect-sarah">
               <img src="img/thumbnails/5.jpg" alt="img01"/>
               <figcaption>
                 <h2><span>Trip to Australia</span></h2>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                <a href="blog.html">View more</a>
               </figcaption>         
             </figure>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="grid">
+        <div class="post-carousel-item">
+            <div class="grid">
             <figure class="effect-sarah">
               <img src="img/thumbnails/6.jpg" alt="img01"/>
               <figcaption>
                 <h2><span>Trip to Indonesia</span></h2>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                <a href="blog.html">View more</a>
               </figcaption>         
             </figure>
           </div>
         </div>
-      </div>
-      <div class="bp-space">
-        <a href="blog.html" id="blog_button" class="wow fadeIn">Older Posts</a>
-      </div>
-    </section>
+        </div>
+    </div>
     <footer>
       <div class="row">
         <div id="f_about" class="col-lg-4 col-md-4">
@@ -164,14 +141,10 @@
         </div>
       </div>
     </footer>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="modules/slick/slick.min.js"></script>
     <script src="js/wow.min.js"></script>
-    <script src="js/core.js"></script>
+    <script src="js/blog.js"></script>
   </body>
 </html>
