@@ -61,7 +61,7 @@ footer .row  {
 img.title-element {
 	top: -40%;
 	left: 0;
-	width: 100%;
+	width: 1366px;
 	z-index: 5;
 }
 #logo_container {
@@ -126,14 +126,14 @@ img.title-element {
 }
 #post_text {
 	font-size: 18px;
-	width: 960px;
+	max-width: 960px;
 	margin: 0px auto;
 	padding-bottom: 50px;
 	text-align: center;
 	line-height: 30px;
 }
 #post_text img {
-	width: 800px;
+	max-width: 80%;
 	margin-top: 10px;
 }
 #post_text #img_desc {
